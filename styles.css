@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+button {
+    background-color: #0b0d0f;
+    border: 6px solid #34495e;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;;
+  }
+  
+  .game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color: rgb(175, 70, 70);
+    border: 6px solid #0b0d0f;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .grid-row {
+    border: 6px solid #739dc7;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(175, 70, 70);
+  }
+  
+  .block {
+    background-color: rgb(219, 28, 28);
+    border: 6px solid green;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .status-style {
+    font-family: 'Kalam', cursive;
+  }
